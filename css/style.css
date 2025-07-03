@@ -91,7 +91,7 @@ main section {
             HOME                     
  ------------------------ */
 .home {
-    margin-top: -5rem;
+    margin-top: -5xrem;
     margin-bottom: 2rem;
     transition: opacity 1.2s ease;
 }
