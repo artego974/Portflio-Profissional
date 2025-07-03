@@ -26,37 +26,68 @@
 
         <section class="sobre-mim hidden" id="sobre">
             <div class="sobre-texto">
-              <h2>Sobre Mim</h2>
-              <p>
-                Sou apaixonado por tecnologia desde muito jovem. Ao longo dos anos, venho explorando e aprofundando meus conhecimentos em desenvolvimento full-stack, com foco em aplicações web modernas e arquitetura de bancos de dados. Atualmente, estou cursando o ensino médio integrado a um curso técnico, onde posso unir teoria e prática em projetos reais.  
-                <br><br>
-                Acredito que a tecnologia é uma ponte para transformar o mundo. Tenho interesse em áreas como automação, inteligência artificial, segurança da informação e desenvolvimento de soluções que melhorem a vida das pessoas.
-              </p>
+                <h2>Sobre Mim</h2>
+                <p>
+                    Sou apaixonado pela programação desde muito jovem. Ao longo dos anos, venho explorando e aprofundando
+                    meus conhecimentos em desenvolvimento de sitemas e dados, com foco em aplicações web modernas e arquitetura
+                    de bancos de dados. Atualmente, estou cursando o ensino médio integrado a um curso técnico, onde
+                    posso unir teoria e prática em projetos reais.
+                    <br><br>
+                    Acredito que a tecnologia é uma ponte para transformar o mundo. Tenho interesse em áreas como
+                    desenvolvimento web, inteligência artificial, cientista de dados e 
+                    engenharia de software.
+                </p>
             </div>
             <div class="sobre-img">
-              <img src="./img/minha-foto.jpg" alt="Foto de Arthur Mattjie">
+                <img src="./img/foto.png" alt="Foto de Arthur Mattjie">
             </div>
-          </section>          
+        </section>
 
         <section class="projetos hidden" id="projetos">
             <h2>Projetos</h2>
-            <ul>
-                <li>🚀 Projeto 1 – Descrição breve</li>
-                <li>📱 Projeto 2 – Descrição breve</li>
-                <li>🛠️ Projeto 3 – Descrição breve</li>
-            </ul>
+            <div class="cards-container">
+                <div class="card-projeto">
+                  <h3>GameWave</h3>
+                  <p>Projeto que estou fazendo para TCC do meu curso técnico sendo um site de criação de campeonatos de jogos virtuais</p>
+                  <a href="https://github.com/artego974/GameWave" target="_blank">Ver projeto</a>
+                </div>
+                <div class="card-projeto">
+                  <h3>Loja Full-stack</h3>
+                  <p>Site de uma loja simples com CRUD para produtos e login com pouca interface mas com toda a funcionalidade com o banco</p>
+                  <a href="https://github.com/artego974/Back-end-TDS/tree/main/aula%208" target="_blank">Ver projeto</a>
+                </div>
+                <div class="card-projeto">
+                  <h3>Clinica</h3>
+                  <p>Atividade do ensino médio para fazer uma Clinica totalmente funcional e com desing intuitivo</p>
+                  <a href="https://github.com/artego974/clinica-simulado-fullstack" target="_blank">Ver projeto</a>
+                </div>
+              </div>
         </section>
 
         <section class="contato hidden" id="contato">
             <h2>Contato</h2>
-            <p>Entre em contato por e-mail: <a href="mailto:arthurcmattjie@gmail.com">arthurcmattjie@gmail.com</a></p>
-        </section>
+            <p>Preencha o formulário abaixo e entrarei em contato o mais rápido possível!</p>
+          
+            <form id="form-contato" class="form-contato">
+                <input type="text" name="name" placeholder="Seu nome" required>
+                <input type="email" name="email" placeholder="Seu e-mail" required>
+                <textarea name="message" placeholder="Sua mensagem" rows="5" required></textarea>
+                <button type="submit">Enviar</button>
+              </form>
+              
+              <!-- Card de agradecimento (escondido por padrão) -->
+              <div class="agradecimento" id="agradecimento">
+                <button id="fechar-agradecimento">&times;</button>
+                <h3>Obrigado pelo contato!</h3>
+                <p>Em breve entrarei em contato com você</p>
+              </div>              
+            <div class="redes">
+              <a href="https://www.linkedin.com/in/arthur-cidade-mattjie-aba299304/"><img src="./img/linkedin.png" alt="linkedin"></a>
+              <a href="https://github.com/artego974"><img src="./img/github.png" alt="github"></a>
+            </div>
+          </section>          
     </main>
     <footer>
-        <div class="redes">
-            <img src="" alt="">
-            <img src="" alt="">
-        </div>
         <div class="copyright">
             <p>&copy; 2025 Arthur Mattjie.</p>
         </div>
